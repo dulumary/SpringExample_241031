@@ -46,6 +46,8 @@ public class NewUserController {
 		return resultMap;
 	}
 	
+	
+	// View
 	@GetMapping("/input")
 	public String userInput() {
 		return "ajax/userInput";
