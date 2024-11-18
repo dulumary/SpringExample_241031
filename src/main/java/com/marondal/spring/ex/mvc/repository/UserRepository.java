@@ -17,5 +17,7 @@ public interface UserRepository {
 	public int insertUserByObject(User user);
 	
 	public User selectLastUser();
+	
+	public int countByEmail(@Param("email") String email);
 
 }
